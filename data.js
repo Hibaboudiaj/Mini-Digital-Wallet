@@ -1,8 +1,9 @@
-//array vide pour stocke les utilisateurs//
+// data.js
+// This file stores our data while the server is running
+//Think of these arrays as our "database" for now
 let users = [];
 
-//array vide pour stocke les portefeuilles (les wallets) pour chaque user
 let wallets = [];
 
-//fkol fichier node.js kain objet smito module kat7t fih dakchi li bghity tsader les autre fishier
+// We export them so other files can use them
 module.exports = { users, wallets };
